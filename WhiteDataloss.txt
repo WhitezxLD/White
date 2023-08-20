@@ -68,7 +68,7 @@ local AE = Y.Button({
 })
 
 local AE2 = Y.Button({
-    Text = "pega o discord do papai pega ",
+    Text = "Discord Server",
     Callback = function()
         setclipboard("https://discord.gg/y7UdVbQRr9")
     end
