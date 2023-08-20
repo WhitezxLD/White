@@ -19,7 +19,7 @@ local X = Material.Load({
 })
 
 local Y = X.New({
-    Title = "WHITE Hub"
+    Title = "White Hub"
 })
 
 Options.UI = Y.Button({
@@ -50,27 +50,27 @@ local D = Y.Dropdown({
 })
 
 local D = Y.Dropdown({
-    Text = "Dataloss Version White ladrão",
+    Text = "Dataloss Version v1 do white",
     Callback = function(Value)
         Options.Current = Value
     end,
     Options = {
-        "V1 UM LIXO ESCOLHE ESSA NÃO",
+        "V1 não recomendado",
         "V2"
     }
 })
 
 local AE = Y.Button({
-    Text = "https://discord.gg/5wnFcuEqTY",
+    Text = "https://discord.gg/y7UdVbQRr9",
     Callback = function()
-        print("https://discord.gg/5wnFcuEqTY")
+        print("https://discord.gg/y7UdVbQRr9")
     end
 })
 
 local AE2 = Y.Button({
     Text = "pega o discord do papai pega ",
     Callback = function()
-        setclipboard("https://discord.gg/5wnFcuEqTY")
+        setclipboard("https://discord.gg/y7UdVbQRr9")
     end
 })
 
