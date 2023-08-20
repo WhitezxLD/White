@@ -5,10 +5,10 @@ getgenv().Options = {
     Undo = "Naruto"
 }
 
-local Material = https://raw.githubusercontent.com/WhitezxLD/Dataloss-white/main/whit
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/WhitezxLD/Dataloss-white/main/whit"))()
 
 local X = Material.Load({
-    Title = "AFS - White ladrão de pão",
+    Title = "AFS - White Hub",
     Style = 3,
     SizeX = 500,
     SizeY = 350,
@@ -19,7 +19,7 @@ local X = Material.Load({
 })
 
 local Y = X.New({
-    Title = "WHITE ROUBOU O UI DO CARA KK"
+    Title = "WHITE Hub"
 })
 
 Options.UI = Y.Button({
