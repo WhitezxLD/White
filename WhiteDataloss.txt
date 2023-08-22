@@ -1,90 +1,14 @@
-getgenv().Options = {
-    Current = "None",
-    V1 = "\192", 
-    V2 = string.rep("B", 4200000),
-    Undo = "Naruto"
-}
-
-local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/WhitezxLD/Dataloss-white/main/whit"))()
-
-local X = Material.Load({
-    Title = "AFS - Whitezx Hub",
-    Style = 3,
-    SizeX = 500,
-    SizeY = 350,
-    Theme = "Dark",
-    ColorOverrides = {
-        MainFrame = Color3.fromRGB(0, 0, 255)
-    }
-})
-
-local Y = X.New({
-    Title = "White Hub"
-})
-
-Options.UI = Y.Button({
-    Text = "Vc não selecionou o tipo de versão...",
-    Callback = function()
-
-        if Options.Current == "None" then return Options.UI:SetText("SELECIONA A VERSÃO CARAI!") end
-
-        if Type == "Start Dataloss" then
-            game:GetService("ReplicatedStorage").Remote.SetDungeonSetting:FireServer("Theme",  Options[Options.Current])
-            TextField:SetText("Started")
-        elseif Type == "Undo Dataloss" then
-            game:GetService("ReplicatedStorage").Remote.SetDungeonSetting:FireServer("Theme", Options.Undo)
-            TextField:SetText("Undone")
-        end
-    end
-})
-
-local D = Y.Dropdown({
-    Text = "Dataloss Type",
-    Callback = function(Value)
-        getgenv().Type = Value
-    end,
-    Options = {
-        "Start Dataloss",
-        "Undo Dataloss"
-    }
-})
-
-local D = Y.Dropdown({
-    Text = "Dataloss Version v1 do white",
-    Callback = function(Value)
-        Options.Current = Value
-    end,
-    Options = {
-        "V1 não recomendado",
-        "V2"
-    }
-})
-
-local AE = Y.Button({
-    Text = "https://discord.gg/y7UdVbQRr9",
-    Callback = function()
-        print("https://discord.gg/y7UdVbQRr9")
-    end
-})
-
-local AE2 = Y.Button({
-    Text = "Discord Server",
-    Callback = function()
-        setclipboard("https://discord.gg/y7UdVbQRr9")
-    end
-})
-
-getgenv().TextField = Y.TextField({
-    Text = "Status",
-    Type = "Default"
-})
-
-while task.wait() do
-    if Type then
-        if Options.Current == "Nenhuma >:( escolhe uma ai vai" then
-        Options.UI:SetText("Seleciona a V2")
-        else
-        Options.UI:SetText(Type)
-        end
-    end
-end
+LuaQ                ›      J   …@  ‹€@   œ€€ËÀ@A Ü  €ÅA ÆÁ € @ ÜA€á@   þÅÀ Ü€€ 
+ 	Â„	Ã…E FÁÃ ÁA \€	A†	ÁD‰É „Å  A  @A €Ü€  Ü€€ ÅJ IÆ‹IÆŒIÇIÇŽIÈŠA  ÅÁ ÆÉB	 AB	 ‚	 Ü ‰Á‘I FÁIŠA  ‰Ê‹\ … ÆÊ
+‚  	Ë•d  	B‚–Ü ‰Á”†ËÊÁ  ÉÁË•$B  É‚–
+ A B "B É„œ ÆË
+Â  	‚Ì•d‚  	B‚–J Â ÁÂ bB 	B„Ü ‚ÊJ‚  IÍ•¤Â  I‚‚–‚ F‚ÊŠ‚  ‰BÍ•ä ‰Â‚–\‚ …Â œ‚€ Æ‚Í
+ƒ  	ÃÍ•	CNœÜ‚ ‰Â›…‚ †ÂNœ‚€ š   
+€…B  †O†BOš   €Æ‚OÚ  @€Æ‚OC ÃO@€ €€ƒ€C  @€C  OCOPC C€Å Ú  @øÅ ÆBÂ€Ð@€Å ÆBÊËÂÐA ÜB€ÀõÅ ÆBÊËÂÐE ÜB€@ô € E   >   https://raw.githubusercontent.com/Whizutas/names/main/xsdandw    game    HttpGet    gmatch    [^
+]+    table    insert    getgenv    Options    Current    None    V1    À    V2    string    rep    B     PA   Undo    Naruto    loadstring E   https://raw.githubusercontent.com/WhitezxLD/Dataloss-white/main/whit    Load    Title    AFS - Whitezx Hub    Style       @   SizeX      @@   SizeY      àu@   Theme    Dark    ColorOverrides 
+   MainFrame    Color3    fromRGB              ào@   New 
+   White Hub    UI    Button    Text    Selecione uma opÃ§Ã£o 	   Callback 	   Dropdown    Dataloss Type    Start Dataloss    Undo Dataloss 
+   Dataloss  	   Dataloss    https://discord.gg/4BdqxcfF5b    Discord Server 
+   TextField    Status    Type    Default    task    wait    Players    LocalPlayer    Name    find    Kick 1   VocÃª nÃ£o tem permissÃ£o para usar esse script.    Nenhuma >:( escolhe uma ai vai    SetText    Seleciona a V2        "   ,      2      @@ €@ @€   À@  A @  €   € ÀA @€  @B € €€ÀB  C @C € Å     A@Æ @ À  A   @€@€€ @D €€  @B € €€ÀB  C @C € Å   Æ€Ä@ À  A À @€ €       Options    Current    None    UI    SetText    SELECIONA A VERSÃƒO CARAI!    Type    Start Dataloss    game    GetService    ReplicatedStorage    Remote    SetDungeonSetting    FireServer    Theme 
+   TextField    Started    Undo Dataloss    Undo    Undone                     1   3        E   \€€ I €€ €       getgenv    Type                     <   >        E   I €€ €       Options    Current                     G   I            A@  @  €       print    https://discord.gg/4BdqxcfF5b                     N   P            A@  @  €    
+   setclipboard    https://discord.gg/4BdqxcfF5b                             
