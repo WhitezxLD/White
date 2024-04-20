@@ -1,0 +1,17 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("2z Hub", "Ocean")
+
+--MAIN
+local ScriptHub = Window:NewTab("Scripts")
+local ScriptSection = ScriptHub:NewSection("Scripts")
+
+
+ScriptSection:NewButton("My Restaurant Script (Autofarms, Visuals, Etc)", "My Restaurant Script", function()
+    loadstring(game:HttpGet("http://void-scripts.com/Scripts/myRest.lua"))()
+end)
+
+
+--Credits
+local Credit = Window:NewTab("Credits")
+local CreditSection = Credit:NewSection("Gui Made by 2z")
+local CreditSection2 = Credit:NewSection("https://discord.gg/jRPQteUM")
